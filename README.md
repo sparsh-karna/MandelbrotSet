@@ -6,7 +6,7 @@ This repository implements the algorithm of the Mandelbrot set to create both st
 
 The Mandelbrot set is a famous fractal named after the mathematician Benoît B. Mandelbrot. It is a set of complex numbers that produces a distinctive, infinitely complex boundary when plotted. The set is defined by iterating the function:
 
-\[ f_c(z) = z^2 + c \]
+\[ f_c(z) = z&sup2; + c \]
 
 where \( z \) starts at zero and \( c \) is a complex parameter. The Mandelbrot set includes all values of \( c \) for which the orbit of \( z \) does not escape to infinity.
 
@@ -18,11 +18,11 @@ where \( z \) starts at zero and \( c \) is a complex parameter. The Mandelbrot 
 
 ## Mathematical Calculation
 
-To determine if a complex number \( c \) is in the Mandelbrot set, we iterate the function \( f_c(z) = z^2 + c \) starting with \( z = 0 \). The number \( c \) is part of the Mandelbrot set if the absolute value of \( z \) remains bounded (does not go to infinity) after many iterations. Typically, the following steps are used:
+To determine if a complex number \( c \) is in the Mandelbrot set, we iterate the function \( f_c(z) = z&sup2; + c \) starting with \( z = 0 \). The number \( c \) is part of the Mandelbrot set if the absolute value of \( z \) remains bounded (does not go to infinity) after many iterations. Typically, the following steps are used:
 
 1. Initialize \( z = 0 \).
-2. Iterate the function \( z = z^2 + c \).
-3. Check if \( |z| > 2 \) (if so, \( c \) is not in the Mandelbrot set).
+2. Iterate the function \( z = z&sup2; + c \).
+3. Check if \( |z| &gt; 2 \) (if so, \( c \) is not in the Mandelbrot set).
 4. Repeat for a maximum number of iterations or until \( |z| \) exceeds 2.
 
 The number of iterations before \( z \) exceeds 2 can be used to color the point \( c \), creating a visual representation of the set.
@@ -83,9 +83,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 
 For any questions or suggestions, please contact [Sparsh Karna](mailto:sparsh.karna@example.com).
-```
-
-You can copy this content into a file named `README.md` in your repository.
-
-
-
