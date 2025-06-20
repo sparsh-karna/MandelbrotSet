@@ -136,8 +136,9 @@ $$c(\theta) = \frac{1}{4}e^{i\theta}\left(1 - \frac{e^{i\theta}}{2}\right) \quad
 
 **Circular Bulb**: The large circular bulb to the left of the main cardioid is centered at $c = -1$ with radius $\frac{1}{4}$.
 
-**Period-2 Bulb**: Points in this bulb have orbits with period 2, satisfying:
-$$c \in \left\{z \in \mathbb{C} : \left|z + 1\right| \leq \frac{1}{4}\right\}$$
+**Period-2 Bulb:** Points in this bulb have orbits with period 2, satisfying:
+
+$$c \in \\{ z \in \mathbb{C} : |z + 1| \leq \frac{1}{4} \\}$$
 
 ## Project Structure
 
